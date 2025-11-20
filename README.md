@@ -16,9 +16,12 @@ Unsupervised SAM (UnSAM) is a "segment anything" model for promptable and automa
 
 
 ## Updates
-- 07/01/2024 Initial commit
-- 10/29/2025 Add Hugging Face support for whole image segmentation [[HF Link](https://huggingface.co/yujunwei04/unsam-whole-image-segmentation)], [[Tutorial Notebook](whole_image_segmentation/hf_demo_whole_image.ipynb)]
+- 11/19/2025 UnSAMv2 was released!!!! Check it out at: [GitHub](https://github.com/yujunwei04/UnSAMv2) & [UnSAMv2 project page](https://yujunwei04.github.io/UnSAMv2-Project-Page/)
+<img width="2476" height="1276" alt="image" src="https://github.com/user-attachments/assets/81597eec-12c4-4808-814e-61a51e246726" />        
 
+- 10/29/2025 Add Hugging Face support for whole image segmentation [[HF Link](https://huggingface.co/yujunwei04/unsam-whole-image-segmentation)], [[Tutorial Notebook](whole_image_segmentation/hf_demo_whole_image.ipynb)]
+  
+- 07/01/2024 Initial commit of UnSAM
 
 ## Features
 - The performance gap between unsupervised segmentation models and SAM can be significantly reduced. UnSAM not only advances the state-of-the-art in unsupervised segmentation by 10% but also achieves comparable performance with the labor-intensive, fully-supervised SAM.
@@ -294,6 +297,13 @@ If you find our work inspiring or use our codebase in your research, please cons
   author={Wang, XuDong and Yang, Jingfeng and Darrell, Trevor},
   journal={arXiv preprint arXiv:2406.20081},
   year={2024}
+}
+
+@article{yu2025unsamv2,
+  title={UnSAMv2: Self-Supervised Learning Enables Segment Anything at Any Granularity},
+  author={Yu, Junwei and Darrell, Trevor and Wang, XuDong},
+  journal={arXiv preprint arXiv:2511.13714},
+  year={2025}
 }
 ```
 
