@@ -293,9 +293,11 @@ If you have any general questions, feel free to email us at [XuDong Wang](mailto
 If you find our work inspiring or use our codebase in your research, please consider giving a star ⭐ and a citation.
 ```
 @article{wang2024segment,
-  title={Segment Anything without Supervision},
+  title={Segment anything without supervision},
   author={Wang, XuDong and Yang, Jingfeng and Darrell, Trevor},
-  journal={arXiv preprint arXiv:2406.20081},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={138731--138755},
   year={2024}
 }
 
