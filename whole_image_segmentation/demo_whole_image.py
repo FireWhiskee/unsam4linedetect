@@ -48,8 +48,8 @@ def save_image(I, pool, output_path):
             input = Image.fromarray(overlap[:, :, np.newaxis] * np.copy(I) + np.logical_not(overlap)[:, :, np.newaxis] * np.copy(input))
             already_painted -= overlap
         input = vis_mask(input, mask, random_color(rgb=True))
-    input1 = Image.fromarray(input)
-    input1.save(output_path)
+    #input1 = Image.fromarray(input)
+    input.save(output_path)
 
 def main():
     parser = argparse.ArgumentParser(description="Detectron2 demo for builtin configs")
