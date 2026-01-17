@@ -33,7 +33,7 @@ def area(mask):
 def vis_mask(input, mask, mask_color) :
     fg = mask > 0.5
     rgb = np.copy(input)
-    rgb[fg] = (rgb[fg] * 0.5 + np.array(mask_color) * 0.5).astype(np.uint8)
+    rgb[fg] = (rgb[fg] * 0.0 + np.array(mask_color) * 1).astype(np.uint8)
     return Image.fromarray(rgb)
 
 def save_image(I, pool, output_path):
